@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My little food shop</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>My little food shop</h1>
+			<table class="table" id="meals">
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th></th>
+                </tr>
+                <!-- cette partie doit être construite avec JavaScript 
+                <tr>
+                    <td>
+                        <strong>Super cheesy burger</strong>&nbsp;<img src="img/vege-icon.png">
+                        <p>Discover our great cheesy burger with mozzarella, gorgonzola and pecorino</p>
+                    </td>
+                    <td>
+                        <span class="price"><strong>8,50 €</strong></span>
+                    </td>
+                    <td>2</td>
+                    <td>
+                        <button class="btn btn-primary">+</button>
+                        <button class="btn btn-primary">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Bad beef burger</strong>
+                        <p>Full of angry beef, jalapeno peppers, fried onions and our special BBQ sauce</p>
+                    </td>
+                    <td>
+                        <span class="price"><strong>12 €</strong></span>
+                    </td>
+                    <td>2</td>
+                    <td>
+                        <button class="btn btn-primary">+</button>
+                        <button class="btn btn-primary">-</button>
+                    </td>
+                </tr>-->
+                <!-- /fin partie JS -->
+                <!--<tr class="info">
+                     <td>
+                        <strong>Total</strong>
+                     </td>
+                     <td>
+                        <span class="price"><strong>41 €</strong></span>
+                    </td>
+                    <td>4</td>
+                    <td>
+                    </td>
+                </tr> -->
+            </table>
+		</div>
+	</div>
+</div>
+
+<div id="order-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Order summary</h4>
+      </div>
+      <div class="modal-body">
+        <table id="order-summary" class="table">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+          </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Continue shopping</button>
+        <button type="button" class="btn btn-primary">Order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
